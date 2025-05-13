@@ -162,7 +162,6 @@ make
 
 ## 📷 Response
 
-> *(Add your screenshots or link to demo video here)*
 ```
 === Analysis Result for log_file.xml ===
 INFO: 183013
