@@ -78,13 +78,13 @@ int main() {
     string toDate;      // YYYY-MM-DD
     string dirPath;
 
-    // Interactive input
+     // Interactive input
     cout << "Server IP (e.g. 127.0.0.1): ";
-    // getline(cin, serverIp);
-    serverIp = "127.0.0.1";
+    getline(cin, serverIp);
+
     cout << "Server Port (e.g. 8080): ";
-    string portStr = "8080";
-    // getline(cin, portStr);
+    string portStr;
+    getline(cin, portStr);
     serverPort = stoi(portStr);
 
     cout << "Analysis type (USER, IP, or LOG_LEVEL): ";
